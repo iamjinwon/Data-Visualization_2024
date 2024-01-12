@@ -1,4 +1,4 @@
-#  :pie_chart: Data Visualization 리포트
+#  :bar_chart: Data Visualization 리포트
 
 ## 주제
 - 축구를 하는데 있어서 키가 큰 영향을 줄까? 
@@ -8,165 +8,158 @@
 - 캐글 : https://www.kaggle.com/datasets/sdelquin/laliga-data3
 
 ### 데이터 칼럼 정보
-- Personal:
-country - Birth country of the player (Alpha-2) - string
-date_of_birth - Date of birth of the player - date
-firstname - First name of the player - string
-gender - Gender of the player - string
-height - Height (cm) of the player - integer
-id - Player id for La Liga - integer
-instagram - Instagram url of the player - string
-international - Indicate if the player has played with a national team - boolean
-lastname - Last name of the player - string
-name - Full name of the player - string
-nickname - Shortname as the player is usually known - string
-photo - Url for the player photo (image) - url
-place_of_birth - Place of birth of the player - string
-player.url - Individual url for player in LaLiga - string
-position - Position in field where the player plays - string
-shirt_number - Shirt number of the player - int
-slug - Player slug (no spaces string identifier) - string
-stadium - Stadium where the player plays - string
-stadium.image - Url for the stadium image - url
-team - Team of the player - string
-team.foundation - Date of team foundation - date
-team.shield - Url for the team shield (image) - url
-team.shortname - Team shortname (3 chars) of the player - string
-twitter - Twitter url of the player - string
-weight - Weight (kg) of the player - int
-
-- Classics:
-appearances - Matches where the player took part in - int
-competition - Name of the competition - string
-games_played - Matches where the player took part in - int
-goals - Total goals made by player - int
-index - Player index - int
-penalty_goals - Penalty goals made by player - int
-recoveries - Recoveries made by player - int
-starts - Games played in startline - int
-substitute_off - Times the player has been substitute off - int
-substitute_on - Times the player has been substitute on - int
-team_games_played - Number of games played by the player's team - int
-time_played - Time played (minutes) by player - int
-total_passes - Total passes made by player - int
-total_shots - Total shots made by player - int
-touches - Ball touches made by player - int
-
-- Deffensives:
-aerial_duels - Aerials duels where the player was involved - int
-aerial_duels_lost - Aerials duels lost where the player was involved - int
-aerial_duels_won - Aerials duels won where the player was involved - int
-attempts_from_set_pieces - Shots on target by player - int
-backward_passes - Passes made backwards by player - int
-blocked_shots - Blocked shots by player - int
-blocks - Blocks made by player - int
-catches - Catches made by player (usually goalkeepers) - int
-clean_sheets - Matches where the team gave up no goals - int
-clearances_off_the_line - Goal clearances off the line - int
-drops - Restarting plays due to reasons other than normal passes - int
-duels - Total duels where the player took part in - int
-duels_lost - Lost duels where the player took part in - int
-duels_won - Won duels where the player took part in - int
-fifty_fifty - Challenge between two players that allows equal chances - int
-gk_successful_distribution - Successful passes by goalkeeper - int
-gk_unsuccessful_distribution - Unsuccessful passes by goalkeeper - int
-goalkeeper_smother - Smother technique to catch the ball (goalkeepers) - int
-goals_conceded - Goals conceded when player is in the match - int
-goals_conceded_inside_box - Goals conceded inside box when player is in the match - int
-goals_conceded_outside_box - Goals conceded outside box when player is in the match - int
-ground_duels - Ground duels where the player took part in - int
-ground_duels_lost - Lost ground duels where the player took part in - int
-ground_duels_won - Won ground duels where the player took part in - int
-handballs_conceded - Handballs conceded by player - int
-interceptions - Interceptions made by player - int
-last_man_tackle - Tackles when player is the last player (defense) - int
-own_goal_scored - Own goal scored by player - int
-penalties_faced - Faced penalties by player - int
-penalties_saved - Saved penalties by player (usually goalkeeper) - int
-penalty_goals_conceded - Penalty goals conceded when player is in the match - int
-saves_from_penalty - Saves from penalty made by player (usually goalkeeper) - int
-saves_made - Saves made by player (usually goalkeeper) - int
-saves_made_caught - Saves with caught made by player (usually goalkeeper) - int
-saves_made_from_inside_box - Saves made from inside box by player (usually goalkeeper) - int
-saves_made_from_outside_box - Saves made from outside box by player (usually goalkeeper) - int
-saves_made_parried - Saves made by player not holding the ball (usually goalkeeper) - int
-tackles_lost - Lost tackles made by player - int
-tackles_won - Won tackles made by player - int
-times_tackled - Times the player has been tackled - int
-total_clearances - Total clearances made by player - int
-total_tackles - Total tackles made by player - int
-
-- Discipline:
-foul_attempted_tackle - Foul attempted tackle by player - int
-foul_won_penalty - Foul penalties won by player - int
-offsides - Offsides of player - int
-penalties_conceded - Penalties conceded by player - int
-punches - Punches made by player - int
-red_cards_2nd_yellow - Red cards to the player after second yellow card - int
-straight_red_cards - Straight red cards received by player - int
-total_fouls_conceded - Total fouls conceded by player - int
-total_red_cards - Total red cards received by player - int
-yellow_cards - Yellow cards received by player - int
-
-- Offensives:
-assists_intentional - Assists given by player - int
-away_goals - Away goals made by player - int
-corners_taken_incl_short_corners - Taken corners by player (includes short corners) - int
-corners_won - Won corners by player - int
-crosses_not_claimed - Crosses not claimed by player - int
-forward_passes - Passes made forwards by player - int
-goal_assists - Goal assists made by player - int
-goals_from_inside_box - Goals from inside box made by player - int
-goals_from_outside_box - Goals from outside box made by player - int
-headed_goals - Headed goals made by player - int
-hit_woodwork - Woodwork hits made by player - int
-home_goals - Home goals made by player - int
-key_passes_attempt_assists - Key passes with attempt of assist made by player - int
-left_foot_goals - Left foot goals made by player - int
-leftside_passes - Passes to the left side of the field made by player - int
-open_play_passes - Passes in open play made by player - int
-other_goals - Goals not covered by other categories - int
-penalties_off_target - Penalties made out of the goal by player - int
-penalties_taken - Taken penalties by player - int
-putthrough_blocked_distribution - Put through blocked distribution - int
-putthrough_blocked_distribution_won - Put through blocked distribution won - int
-right_foot_goals - Right foot goals made by player - int
-rightside_passes - Passes to the right side made by player - int
-second_goal_assists - Second goal assists made by player - int
-set_pieces_goals - Set pieces goals made by player - int
-shots_off_target_inc_woodwork - Shots off target included woodwork made by player - int
-shots_on_target_inc_goals - Shots on target included woodwork made by player - int
-successful_corners_into_box - Successful corners hitted into box by player - int
-successful_crosses_corners - Successful corner crosses made by player - int
-successful_crosses_open_play - Successful crosses on open play made by player - int
-successful_dribbles - Successful dribbles made by player - int
-successful_fifty_fifty - Successful fifty fifty challenges won by player - int
-successful_launches - Successful launches made by player - int
-successful_layoffs - Successful layoffs made by player - int
-successful_long_passes - Successful long passes made by player - int
-successful_open_play_passes - Successful open play passes made by player - int
-successful_passes_opposition_half - Successful passes in opossition half made by player - int
-successful_passes_own_half - Successful passes in own half made by player - int
-successful_short_passes - Successful short passes made by player - int
-through_balls - Passes into space between defenders made by player - int
-throw_ins_to_opposition_player - Throw-ins to an opponent made by player - int
-throw_ins_to_own_player - Throw-ins to a teammate made by player - int
-total_fouls_won - Total fouls won by player - int
-total_losses_of_possession - Total losses of possession of player - int
-total_successful_passes_excl_crosses_corners - Total successful passes excluding crosses corners - int
-total_touches_in_opposition_box - Total touches in opposition box made by player - int
-total_unsuccessful_passes_excl_crosses_corners - Total unsuccessful passes excluding crosses corners - int
-unsuccessful_corners_into_box - Unsuccessful corners into the box made by player - int
-unsuccessful_crosses_corners - Unsuccessful crosses corners made by player - int
-unsuccessful_crosses_open_play - Unsuccessful crosses in open play made by player - int
-unsuccessful_dribbles - Unsuccessful dribbles made by player - int
-unsuccessful_launches - Unsuccessful launches made by player - int
-unsuccessful_layoffs - Unsuccessful layoffs made by player - int
-unsuccessful_long_passes - Unsuccessful long passes made by player - int
-unsuccessful_passes_opposition_half - Unsuccessful passes in opossition half made by player - int
-unsuccessful_passes_own_half - Unsuccessful passes in own half made by player - int
-unsuccessful_short_passes - Unsuccessful short passes made by player - int
-winning_goal - Winning goals made by player - int
+| Column                               | Category    | Description                                          | Type   |
+|--------------------------------------|-------------|------------------------------------------------------|--------|
+| country                              | Personal    | Birth country of the player (Alpha-2)              | string |
+| date_of_birth                        | Personal    | Date of birth of the player                         | date   |
+| firstname                            | Personal    | First name of the player                             | string |
+| gender                               | Personal    | Gender of the player                                | string |
+| height                               | Personal    | Height (cm) of the player                           | integer|
+| id                                   | Personal    | Player id for La Liga                               | integer|
+| instagram                            | Personal    | Instagram url of the player                         | string |
+| international                        | Personal    | Indicate if the player has played with a national team | boolean|
+| lastname                             | Personal    | Last name of the player                             | string |
+| name                                 | Personal    | Full name of the player                             | string |
+| nickname                             | Personal    | Shortname as the player is usually known            | string |
+| photo                                | Personal    | Url for the player photo (image)                    | url    |
+| place_of_birth                       | Personal    | Place of birth of the player                        | string |
+| player.url                           | Personal    | Individual url for player in LaLiga                | string |
+| position                             | Personal    | Position in field where the player plays            | string |
+| shirt_number                         | Personal    | Shirt number of the player                          | int    |
+| slug                                 | Personal    | Player slug (no spaces string identifier)          | string |
+| stadium                              | Personal    | Stadium where the player plays                      | string |
+| stadium.image                        | Personal    | Url for the stadium image                            | url    |
+| team                                 | Personal    | Team of the player                                  | string |
+| team.foundation                      | Personal    | Date of team foundation                             | date   |
+| team.shield                          | Personal    | Url for the team shield (image)                     | url    |
+| team.shortname                       | Personal    | Team shortname (3 chars) of the player             | string |
+| twitter                              | Personal    | Twitter url of the player                           | string |
+| weight                               | Personal    | Weight (kg) of the player                           | integer|
+| appearances                          | Classics    | Matches where the player took part in               | integer|
+| competition                          | Classics    | Name of the competition                              | string |
+| games_played                         | Classics    | Matches where the player took part in               | integer|
+| goals                                | Classics    | Total goals made by player                          | integer|
+| index                                | Classics    | Player index                                        | integer|
+| penalty_goals                        | Classics    | Penalty goals made by player                        | integer|
+| recoveries                           | Classics    | Recoveries made by player                           | integer|
+| starts                               | Classics    | Games played in startline                           | integer|
+| substitute_off                        | Classics    | Times the player has been substitute off            | integer|
+| substitute_on                         | Classics    | Times the player has been substitute on             | integer|
+| team_games_played                    | Classics    | Number of games played by the player team           | integer|
+| time_played                          | Classics    | Time played (minutes) by player                     | integer|
+| total_passes                         | Classics    | Total passes made by player                         | integer|
+| total_shots                          | Classics    | Total shots made by player                          | integer|
+| touches                              | Classics    | Ball touches made by player                         | integer|
+| aerial_duels                         | Deffensives | Aerials duels where the player was involved         | integer|
+| aerial_duels_lost                    | Deffensives | Aerials duels lost where the player was involved    | integer|
+| aerial_duels_won                     | Deffensives | Aerials duels won where the player was involved     | integer|
+| attempts_from_set_pieces             | Deffensives | Shots on target by player                           | integer|
+| backward_passes                      | Deffensives | Passes made backwards by player                     | integer|
+| blocked_shots                        | Deffensives | Blocked shots by player                             | integer|
+| blocks                               | Deffensives | Blocks made by player                               | integer|
+| catches                              | Deffensives | Catches made by player (usually goalkeepers)        | integer|
+| clean_sheets                         | Deffensives | Matches where the team gave up no goals             | integer|
+| clearances_off_the_line              | Deffensives | Goal clearances off the line                        | integer|
+| drops                                | Deffensives | Restarting plays due to reasons other than normal gameplay | integer|
+| duels                                | Deffensives | Total duels where the player took part in           | integer|
+| duels_lost                           | Deffensives | Lost duels where the player took part in            | integer|
+| duels_won                            | Deffensives | Won duels where the player took part in             | integer|
+| fifty_fifty                          | Deffensives | Challenge between two players that allows equal chances of acquiring the control of the ball | integer|
+| gk_successful_distribution           | Deffensives | Successful passes by goalkeeper                    | integer|
+| gk_unsuccessful_distribution         | Deffensives | Unsuccessful passes by goalkeeper                  | integer|
+| goalkeeper_smother                   | Deffensives | Smother technique to catch the ball (goalkeepers)  | integer|
+| goals_conceded                       | Deffensives | Goals conceded when player is in the match          | integer|
+| goals_conceded_inside_box            | Deffensives | Goals conceded inside box when player is in the match | integer|
+| goals_conceded_outside_box           | Deffensives | Goals conceded outside box when player is in the match | integer|
+| ground_duels                         | Deffensives | Ground duels where the player took part in          | integer|
+| ground_duels_lost                    | Deffensives | Lost ground duels where the player took part in     | integer|
+| ground_duels_won                     | Deffensives | Won ground duels where the player took part in      | integer|
+| handballs_conceded                   | Deffensives | Handballs conceded by player                        | integer|
+| interceptions                        | Deffensives | Interceptions made by player                        | integer|
+| last_man_tackle                      | Deffensives | Tackles when player is the last player (defense)    | integer|
+| own_goal_scored                      | Deffensives | Own goal scored by player                           | integer|
+| penalties_faced                      | Deffensives | Faced penalties by player                          | integer|
+| penalties_saved                      | Deffensives | Saved penalties by player (usually goalkeeper)      | integer|
+| penalty_goals_conceded               | Deffensives | Penalty goals conceded when player is in the match  | integer|
+| saves_from_penalty                   | Deffensives | Saves from penalty made by player (usually goalkeeper) | integer|
+| saves_made                           | Deffensives | Saves made by player (usuarlly goalkeeper)          | integer|
+| saves_made_caught                    | Deffensives | Saves with caught made by player (usually goalkeeper) | integer|
+| saves_made_from_inside_box           | Deffensives | Saves made from inside box by player (usually goalkeeper) | integer|
+| saves_made_from_outside_box          | Deffensives | Saves made from outside box by player (usually goalkeeper) | integer|
+| saves_made_parried                   | Deffensives | Saves made by player not holding the ball (usually goalkeeper) | integer|
+| tackles_lost                         | Deffensives | Lost tackles made by player                         | integer|
+| tackles_won                          | Deffensives | Won tackles made by player                          | integer|
+| times_tackled                        | Deffensives | Times the player has been tackled                    | integer|
+| total_clearances                     | Deffensives | Total clearances made by player                      | integer|
+| total_tackles                        | Deffensives | Total tackles made by player                         | integer|
+| foul_attempted_tackle                | Discipline | Foul attempted tackle by player                      | integer|
+| foul_won_penalty                     | Discipline | Foul penalties won by player                         | integer|
+| offsides                             | Discipline | Offsides of player                                   | integer|
+| penalties_conceded                   | Discipline | Penalties conceded by player                         | integer|
+| punches                              | Discipline | Punches made by player                               | integer|
+| red_cards_2nd_yellow                | Discipline | Red cards to the player after second yellow card     | integer|
+| straight_red_cards                   | Discipline | Straight red cards received by player                | integer|
+| total_fouls_conceded                 | Discipline | Total fouls conceded by player                       | integer|
+| total_red_cards                      | Discipline | Total red cards received by player                    | integer|
+| yellow_cards                         | Discipline | Yellow cards received by player                       | integer|
+| assists_intentional                  | Offensives  | Assists given by player                              | integer|
+| away_goals                           | Offensives  | Away goals made by player                            | integer|
+| corners_taken_incl_short_corners     | Offensives  | Taken corners by player (includes short corners)     | integer|
+| corners_won                          | Offensives  | Won corners by player                                | integer|
+| crosses_not_claimed                  | Offensives  | Crosses not claimed by player                        | integer|
+| forward_passes                       | Offensives  | Passes made forwards by player                       | integer|
+| goal_assists                         | Offensives  | Goal asists made by player                           | integer|
+| goals_from_inside_box                | Offensives  | Goals from inside box made by player                 | integer|
+| goals_from_outside_box               | Offensives  | Goals from outside box made by player                | integer|
+| headed_goals                         | Offensives  | Headed goals made by player                          | integer|
+| hit_woodwork                         | Offensives  | Woodwork hits made by player                         | integer|
+| home_goals                           | Offensives  | Home goals made by player                            | integer|
+| key_passes_attempt_assists           | Offensives  | Key passes with attempt of assist made by player    | integer|
+| left_foot_goals                      | Offensives  | Left foot goals made by player                       | integer|
+| leftside_passes                      | Offensives  | Passes to the left side of the field made by player | integer|
+| open_play_passes                     | Offensives  | Passes in open play made by player                   | integer|
+| other_goals                          | Offensives  | Goals not covered by other categories                | integer|
+| penalties_off_target                 | Offensives  | Penalties made out of the goal by player             | integer|
+| penalties_taken                      | Offensives  | Taken penalties by player                            | integer|
+| putthrough_blocked_distribution      | Offensives  | Put through blocked distribution                    | integer|
+| putthrough_blocked_distribution_won  | Offensives  | Put through blocked distribution won                | integer|
+| right_foot_goals                     | Offensives  | Right foot goals made by player                      | integer|
+| rightside_passes                     | Offensives  | Passes to the right side made by player              | integer|
+| second_goal_assists                  | Offensives  | Second goal assists made by player                   | integer|
+| set_pieces_goals                     | Offensives  | Set pieces goals made by player                      | integer|
+| shots_off_target_inc_woodwork        | Offensives  | Shots off target included woodwork made by player    | integer|
+| shots_on_target_inc_goals            | Offensives  | Shots on target included woodwork made by player    | integer|
+| successful_corners_into_box          | Offensives  | Successful corners hitted into box by player         | integer|
+| successful_crosses_corners           | Offensives  | Successful corner crosses made by player             | integer|
+| successful_crosses_open_play         | Offensives  | Successful crosses on open play made by player      | integer|
+| successful_dribbles                  | Offensives  | Successful dribbles made by player                   | integer|
+| successful_fifty_fifty               | Offensives  | Successful fifty fifty challenges won by player     | integer|
+| successful_launches                  | Offensives  | Successful launches made by player                  | integer|
+| successful_layoffs                   | Offensives  | Successful layoffs made by player                   | integer|
+| successful_long_passes               | Offensives  | Successful long passes made by player               | integer|
+| successful_open_play_passes          | Offensives  | Successful open play passes made by player           | integer|
+| successful_passes_opposition_half    | Offensives  | Successful passes in opossition half made by player | integer|
+| successful_passes_own_half           | Offensives  | Successful passes in own half made by player         | integer|
+| successful_short_passes              | Offensives  | Successful short passes made by player              | integer|
+| through_balls                        | Offensives  | Passes into space between defenders made by player  | integer|
+| throw_ins_to_opposition_player       | Offensives  | Throw-ins to an opponent made by player             | integer|
+| throw_ins_to_own_player              | Offensives  | Throw-ins to a teammate made by player              | integer|
+| total_fouls_won                      | Offensives  | Total fouls won by player                            | integer|
+| total_losses_of_possession           | Offensives  | Total losses of possesion of player                 | integer|
+| total_successful_passes_excl_crosses_corners | Offensives  | Total successful passes excluding crosses corners | integer|
+| total_touches_in_opposition_box      | Offensives  | Total touches in opposition box made by player      | integer|
+| total_unsuccessful_passes_excl_crosses_corners | Offensives  | Total unsuccessful passes excluding crosses corners | integer|
+| unsuccessful_corners_into_box        | Offensives  | Unsuccessful corners into the box made by player    | integer|
+| unsuccessful_crosses_corners         | Offensives  | Unsuccessful crosses corners made by player   | integer|
+| unsuccessful_crosses_open_play         | Offensives  | Unsuccessful crosses in open play made by player   | integer|
+| unsuccessful_dribbles         | Offensives  | Unsuccessful dribbles made by player   | integer|
+| unsuccessful_launches         | Offensives  | Unsuccessful launches made by player   | integer|
+| unsuccessful_layoffs         | Offensives  | Unsuccessful layoffs made by player   | integer|
+| unsuccessful_long_passes         | Offensives  | Unsuccessful long passes made by player   | integer|
+| unsuccessful_passes_opposition_half         | Offensives  | Unsuccessful passes in opossition half made by player   | integer|
+| unsuccessful_passes_own_half         | Offensives  | Unsuccessful passes in own half made by player   | integer|
+| unsuccessful_short_passes         | Offensives  | Unsuccessful short passes made by player   | integer|
+| winning_goal         | Offensives  | Winning goals made by player   | integer|
 
 ## 가설
 #### Forward
@@ -196,10 +189,10 @@ winning_goal - Winning goals made by player - int
 ## 분석 및 코드
 [Data_Visualization_2024.ipynb](Data_Visualization_2024.ipynb)
 ## 데이터 시각화 결과 예시
-- 노션 링크 : [23/24 LaLiga Data Visualization](https://www.notion.so/Data-Visualization-Soccer-Project-4c9e2469c93b467bb586953c4f166cd9?pvs=4)
+- 노션 링크 : [Data Visualization - Soccer Project](https://www.notion.so/Data-Visualization-Soccer-Project-4c9e2469c93b467bb586953c4f166cd9?pvs=4)
 
 ### 예시
-<img src="./ex_plot/height_average.png">
-<img src="./ex_plot/affensive_score.png">
-<img src="./ex_plot/teamheight_heading.png">
-<img src="./ex_plot/map.png">
+<img src="./ex_plots/height_average.png">
+<img src="./ex_plots/affensive_score.png">
+<img src="./ex_plots/teamheight_heading.png">
+<img src="./ex_plots/map.png">
